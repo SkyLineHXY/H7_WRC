@@ -31,7 +31,7 @@ void PID_PARA_Init(void)
 }
 
 /*处理陀螺仪对面的诡异位置*/
-float Handle_Angle8191_PID_Over_Zero(float target, float cur)
+float Handle_Angle8191_PID_Over_Zero(float target, float cur) //处理陀螺仪对面的诡异位置
 {
     if(target - cur > 180)    //180 ：半圈机械角度
     {

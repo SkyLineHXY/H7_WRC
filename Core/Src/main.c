@@ -135,6 +135,7 @@ int main(void)
 //		task_contorl();
 		// MOTO_PARA.speed1_current=Read_Encoder_M1();
 		delay_ms(60);
+		//MOTO_PARA.speed2_current=Read_Encoder_M2();
 
    /** while(mpu_dmp_get_data(&pitch, &roll, &yaw) != 0){}
     sprintf(txt,"%f\r\n", yaw);
