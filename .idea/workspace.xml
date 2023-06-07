@@ -1,0 +1,600 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="CMakePresetLoader">{
+  &quot;useNewFormat&quot;: true
+}</component>
+  <component name="CMakeReloadState">
+    <option name="reloaded" value="true" />
+  </component>
+  <component name="CMakeRunConfigurationManager">
+    <generated>
+      <config projectName="H7_WRC" targetName="H7_WRC.elf" />
+    </generated>
+  </component>
+  <component name="CMakeSettings">
+    <configurations>
+      <configuration PROFILE_NAME="Debug" ENABLED="true" CONFIG_NAME="Debug" />
+    </configurations>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="2454c042-77fe-45c5-b1b3-5a67f39f6c4c" name="更改" comment="test">
+      <change afterPath="$PROJECT_DIR$/.cproject" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.mxproject" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.project" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CMakeLists_template.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Core/Inc/delay.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Core/Inc/gpio.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Core/Inc/i2c.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Core/Inc/main.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Core/Inc/stm32h7xx_hal_conf.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Core/Inc/stm32h7xx_it.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Core/Inc/tim.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Core/Inc/usart.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Core/Src/delay.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Core/Src/gpio.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Core/Src/i2c.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Core/Src/main.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Core/Src/stm32h7xx_hal_msp.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Core/Src/stm32h7xx_it.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Core/Src/syscalls.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Core/Src/sysmem.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Core/Src/system_stm32h7xx.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Core/Src/tim.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Core/Src/usart.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Core/Startup/startup_stm32h750vbtx.s" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Core/User/HWT101.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Core/User/HWT101.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Core/User/PID.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Core/User/PID.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Core/User/PS2.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Core/User/PS2.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Core/User/REG.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Core/User/SERVO.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Core/User/SERVO.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Core/User/motor.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Core/User/motor_1.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Core/User/mpuiic.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Core/User/mpuiic.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Core/User/task_control.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Drivers/CMSIS/Device/ST/STM32H7xx/Include/stm32h750xx.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Drivers/CMSIS/Device/ST/STM32H7xx/Include/stm32h7xx.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Drivers/CMSIS/Device/ST/STM32H7xx/Include/system_stm32h7xx.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Drivers/CMSIS/Device/ST/STM32H7xx/LICENSE.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Drivers/CMSIS/Include/cmsis_armcc.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Drivers/CMSIS/Include/cmsis_armclang.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Drivers/CMSIS/Include/cmsis_armclang_ltm.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Drivers/CMSIS/Include/cmsis_compiler.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Drivers/CMSIS/Include/cmsis_gcc.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Drivers/CMSIS/Include/cmsis_iccarm.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Drivers/CMSIS/Include/cmsis_version.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Drivers/CMSIS/Include/core_armv81mml.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Drivers/CMSIS/Include/core_armv8mbl.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Drivers/CMSIS/Include/core_armv8mml.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Drivers/CMSIS/Include/core_cm0.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Drivers/CMSIS/Include/core_cm0plus.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Drivers/CMSIS/Include/core_cm1.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Drivers/CMSIS/Include/core_cm23.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Drivers/CMSIS/Include/core_cm3.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Drivers/CMSIS/Include/core_cm33.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Drivers/CMSIS/Include/core_cm35p.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Drivers/CMSIS/Include/core_cm4.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Drivers/CMSIS/Include/core_cm7.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Drivers/CMSIS/Include/core_sc000.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Drivers/CMSIS/Include/core_sc300.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Drivers/CMSIS/Include/mpu_armv7.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Drivers/CMSIS/Include/mpu_armv8.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Drivers/CMSIS/Include/tz_context.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Drivers/CMSIS/LICENSE.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Drivers/STM32H7xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_cortex.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_def.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_dma.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_dma_ex.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_exti.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_flash.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_flash_ex.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_gpio.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_gpio_ex.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_hsem.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_i2c.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_i2c_ex.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_mdma.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_pwr.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_pwr_ex.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_rcc.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_rcc_ex.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_tim.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_tim_ex.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_uart.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_uart_ex.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_ll_bus.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_ll_cortex.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_ll_crs.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_ll_dma.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_ll_dmamux.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_ll_exti.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_ll_gpio.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_ll_hsem.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_ll_i2c.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_ll_lpuart.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_ll_pwr.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_ll_rcc.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_ll_system.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_ll_tim.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_ll_usart.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_ll_utils.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Drivers/STM32H7xx_HAL_Driver/LICENSE.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_cortex.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_dma.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_dma_ex.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_exti.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_flash.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_flash_ex.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_gpio.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_hsem.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_i2c.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_i2c_ex.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_mdma.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_pwr.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_pwr_ex.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_rcc.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_rcc_ex.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_tim.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_tim_ex.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_uart.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_uart_ex.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/H7_WRC.ioc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MDK-ARM/DebugConfig/H7_WRC_STM32H750VBTx_1.1.0.dbgconf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MDK-ARM/EventRecorderStub.scvd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MDK-ARM/H7_WRC.uvguix.小白二号" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MDK-ARM/H7_WRC.uvoptx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MDK-ARM/H7_WRC.uvprojx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MDK-ARM/H7_WRC/ExtDll.iex" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MDK-ARM/H7_WRC/H7_WRC.axf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MDK-ARM/H7_WRC/H7_WRC.build_log.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MDK-ARM/H7_WRC/H7_WRC.hex" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MDK-ARM/H7_WRC/H7_WRC.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MDK-ARM/H7_WRC/H7_WRC.lnp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MDK-ARM/H7_WRC/H7_WRC.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MDK-ARM/H7_WRC/H7_WRC.sct" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MDK-ARM/H7_WRC/H7_WRC_H7_WRC.dep" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MDK-ARM/H7_WRC/delay.crf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MDK-ARM/H7_WRC/delay.d" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MDK-ARM/H7_WRC/delay.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MDK-ARM/H7_WRC/gpio.crf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MDK-ARM/H7_WRC/gpio.d" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MDK-ARM/H7_WRC/gpio.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MDK-ARM/H7_WRC/hwt101.crf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MDK-ARM/H7_WRC/hwt101.d" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MDK-ARM/H7_WRC/hwt101.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MDK-ARM/H7_WRC/i2c.crf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MDK-ARM/H7_WRC/i2c.d" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MDK-ARM/H7_WRC/i2c.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MDK-ARM/H7_WRC/inv_mpu.crf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MDK-ARM/H7_WRC/inv_mpu.d" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MDK-ARM/H7_WRC/inv_mpu_dmp_motion_driver.crf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MDK-ARM/H7_WRC/inv_mpu_dmp_motion_driver.d" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MDK-ARM/H7_WRC/main.crf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MDK-ARM/H7_WRC/main.d" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MDK-ARM/H7_WRC/main.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MDK-ARM/H7_WRC/motor_1.crf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MDK-ARM/H7_WRC/motor_1.d" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MDK-ARM/H7_WRC/motor_1.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MDK-ARM/H7_WRC/mpuiic.crf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MDK-ARM/H7_WRC/mpuiic.d" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MDK-ARM/H7_WRC/mpuiic.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MDK-ARM/H7_WRC/pid.crf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MDK-ARM/H7_WRC/pid.d" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MDK-ARM/H7_WRC/pid.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MDK-ARM/H7_WRC/ps2.crf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MDK-ARM/H7_WRC/ps2.d" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MDK-ARM/H7_WRC/ps2.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MDK-ARM/H7_WRC/servo.crf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MDK-ARM/H7_WRC/servo.d" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MDK-ARM/H7_WRC/servo.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MDK-ARM/H7_WRC/startup_stm32h750xx.d" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MDK-ARM/H7_WRC/startup_stm32h750xx.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MDK-ARM/H7_WRC/stm32h7xx_hal.crf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MDK-ARM/H7_WRC/stm32h7xx_hal.d" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MDK-ARM/H7_WRC/stm32h7xx_hal.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MDK-ARM/H7_WRC/stm32h7xx_hal_cortex.crf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MDK-ARM/H7_WRC/stm32h7xx_hal_cortex.d" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MDK-ARM/H7_WRC/stm32h7xx_hal_cortex.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MDK-ARM/H7_WRC/stm32h7xx_hal_dma.crf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MDK-ARM/H7_WRC/stm32h7xx_hal_dma.d" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MDK-ARM/H7_WRC/stm32h7xx_hal_dma.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MDK-ARM/H7_WRC/stm32h7xx_hal_dma_ex.crf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MDK-ARM/H7_WRC/stm32h7xx_hal_dma_ex.d" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MDK-ARM/H7_WRC/stm32h7xx_hal_dma_ex.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MDK-ARM/H7_WRC/stm32h7xx_hal_exti.crf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MDK-ARM/H7_WRC/stm32h7xx_hal_exti.d" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MDK-ARM/H7_WRC/stm32h7xx_hal_exti.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MDK-ARM/H7_WRC/stm32h7xx_hal_flash.crf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MDK-ARM/H7_WRC/stm32h7xx_hal_flash.d" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MDK-ARM/H7_WRC/stm32h7xx_hal_flash.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MDK-ARM/H7_WRC/stm32h7xx_hal_flash_ex.crf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MDK-ARM/H7_WRC/stm32h7xx_hal_flash_ex.d" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MDK-ARM/H7_WRC/stm32h7xx_hal_flash_ex.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MDK-ARM/H7_WRC/stm32h7xx_hal_gpio.crf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MDK-ARM/H7_WRC/stm32h7xx_hal_gpio.d" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MDK-ARM/H7_WRC/stm32h7xx_hal_gpio.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MDK-ARM/H7_WRC/stm32h7xx_hal_hsem.crf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MDK-ARM/H7_WRC/stm32h7xx_hal_hsem.d" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MDK-ARM/H7_WRC/stm32h7xx_hal_hsem.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MDK-ARM/H7_WRC/stm32h7xx_hal_i2c.crf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MDK-ARM/H7_WRC/stm32h7xx_hal_i2c.d" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MDK-ARM/H7_WRC/stm32h7xx_hal_i2c.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MDK-ARM/H7_WRC/stm32h7xx_hal_i2c_ex.crf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MDK-ARM/H7_WRC/stm32h7xx_hal_i2c_ex.d" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MDK-ARM/H7_WRC/stm32h7xx_hal_i2c_ex.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MDK-ARM/H7_WRC/stm32h7xx_hal_mdma.crf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MDK-ARM/H7_WRC/stm32h7xx_hal_mdma.d" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MDK-ARM/H7_WRC/stm32h7xx_hal_mdma.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MDK-ARM/H7_WRC/stm32h7xx_hal_msp.crf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MDK-ARM/H7_WRC/stm32h7xx_hal_msp.d" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MDK-ARM/H7_WRC/stm32h7xx_hal_msp.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MDK-ARM/H7_WRC/stm32h7xx_hal_pwr.crf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MDK-ARM/H7_WRC/stm32h7xx_hal_pwr.d" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MDK-ARM/H7_WRC/stm32h7xx_hal_pwr.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MDK-ARM/H7_WRC/stm32h7xx_hal_pwr_ex.crf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MDK-ARM/H7_WRC/stm32h7xx_hal_pwr_ex.d" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MDK-ARM/H7_WRC/stm32h7xx_hal_pwr_ex.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MDK-ARM/H7_WRC/stm32h7xx_hal_rcc.crf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MDK-ARM/H7_WRC/stm32h7xx_hal_rcc.d" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MDK-ARM/H7_WRC/stm32h7xx_hal_rcc.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MDK-ARM/H7_WRC/stm32h7xx_hal_rcc_ex.crf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MDK-ARM/H7_WRC/stm32h7xx_hal_rcc_ex.d" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MDK-ARM/H7_WRC/stm32h7xx_hal_rcc_ex.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MDK-ARM/H7_WRC/stm32h7xx_hal_tim.crf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MDK-ARM/H7_WRC/stm32h7xx_hal_tim.d" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MDK-ARM/H7_WRC/stm32h7xx_hal_tim.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MDK-ARM/H7_WRC/stm32h7xx_hal_tim_ex.crf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MDK-ARM/H7_WRC/stm32h7xx_hal_tim_ex.d" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MDK-ARM/H7_WRC/stm32h7xx_hal_tim_ex.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MDK-ARM/H7_WRC/stm32h7xx_hal_uart.crf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MDK-ARM/H7_WRC/stm32h7xx_hal_uart.d" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MDK-ARM/H7_WRC/stm32h7xx_hal_uart.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MDK-ARM/H7_WRC/stm32h7xx_hal_uart_ex.crf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MDK-ARM/H7_WRC/stm32h7xx_hal_uart_ex.d" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MDK-ARM/H7_WRC/stm32h7xx_hal_uart_ex.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MDK-ARM/H7_WRC/stm32h7xx_it.crf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MDK-ARM/H7_WRC/stm32h7xx_it.d" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MDK-ARM/H7_WRC/stm32h7xx_it.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MDK-ARM/H7_WRC/system_stm32h7xx.crf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MDK-ARM/H7_WRC/system_stm32h7xx.d" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MDK-ARM/H7_WRC/system_stm32h7xx.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MDK-ARM/H7_WRC/task_control.crf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MDK-ARM/H7_WRC/task_control.d" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MDK-ARM/H7_WRC/task_control.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MDK-ARM/H7_WRC/tim.crf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MDK-ARM/H7_WRC/tim.d" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MDK-ARM/H7_WRC/tim.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MDK-ARM/H7_WRC/usart.crf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MDK-ARM/H7_WRC/usart.d" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MDK-ARM/H7_WRC/usart.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MDK-ARM/RTE/_H7_WRC/RTE_Components.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MDK-ARM/startup_stm32h750xx.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MDK-ARM/startup_stm32h750xx.s" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/STM32H750VBTX_FLASH.ld" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/STM32H750VBTX_RAM.ld" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/query/cache-v2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/query/cmakeFiles-v1" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/query/codemodel-v2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/query/toolchains-v1" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/cache-v2-dcc4f7c348e9cf0c34d4.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/cmakeFiles-v1-29e149a4f6ac27e726e9.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/codemodel-v2-698678778d2e0a1edbb0.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/directory-.-d0094a50bb2071803777.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/index-2023-04-27T06-02-30-0354.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/target-H7_WRC.elf-f59e21da3331721af512.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/toolchains-v1-be721235608c3c0a9be8.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeCache.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.25.2/CMakeASMCompiler.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.25.2/CMakeCCompiler.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.25.2/CMakeCXXCompiler.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.25.2/CMakeDetermineCompilerABI_C.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.25.2/CMakeDetermineCompilerABI_CXX.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.25.2/CMakeSystem.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.25.2/CompilerIdC/CMakeCCompilerId.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.25.2/CompilerIdC/CMakeCCompilerId.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.25.2/CompilerIdCXX/CMakeCXXCompilerId.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.25.2/CompilerIdCXX/CMakeCXXCompilerId.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeDirectoryInformation.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeError.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeOutput.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/H7_WRC.elf.dir/ASM.includecache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/H7_WRC.elf.dir/Core/Src/delay.c.obj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/H7_WRC.elf.dir/Core/Src/delay.c.obj.d" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/H7_WRC.elf.dir/Core/Src/gpio.c.obj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/H7_WRC.elf.dir/Core/Src/gpio.c.obj.d" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/H7_WRC.elf.dir/Core/Src/i2c.c.obj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/H7_WRC.elf.dir/Core/Src/i2c.c.obj.d" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/H7_WRC.elf.dir/Core/Src/main.c.obj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/H7_WRC.elf.dir/Core/Src/main.c.obj.d" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/H7_WRC.elf.dir/Core/Src/stm32h7xx_hal_msp.c.obj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/H7_WRC.elf.dir/Core/Src/stm32h7xx_hal_msp.c.obj.d" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/H7_WRC.elf.dir/Core/Src/stm32h7xx_it.c.obj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/H7_WRC.elf.dir/Core/Src/stm32h7xx_it.c.obj.d" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/H7_WRC.elf.dir/Core/Src/syscalls.c.obj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/H7_WRC.elf.dir/Core/Src/syscalls.c.obj.d" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/H7_WRC.elf.dir/Core/Src/sysmem.c.obj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/H7_WRC.elf.dir/Core/Src/sysmem.c.obj.d" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/H7_WRC.elf.dir/Core/Src/system_stm32h7xx.c.obj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/H7_WRC.elf.dir/Core/Src/system_stm32h7xx.c.obj.d" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/H7_WRC.elf.dir/Core/Src/tim.c.obj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/H7_WRC.elf.dir/Core/Src/tim.c.obj.d" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/H7_WRC.elf.dir/Core/Src/usart.c.obj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/H7_WRC.elf.dir/Core/Src/usart.c.obj.d" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/H7_WRC.elf.dir/Core/Startup/startup_stm32h750vbtx.s.obj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/H7_WRC.elf.dir/Core/User/HWT101.c.obj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/H7_WRC.elf.dir/Core/User/HWT101.c.obj.d" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/H7_WRC.elf.dir/Core/User/PID.c.obj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/H7_WRC.elf.dir/Core/User/PID.c.obj.d" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/H7_WRC.elf.dir/Core/User/PS2.c.obj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/H7_WRC.elf.dir/Core/User/PS2.c.obj.d" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/H7_WRC.elf.dir/Core/User/SERVO.c.obj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/H7_WRC.elf.dir/Core/User/SERVO.c.obj.d" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/H7_WRC.elf.dir/Core/User/motor_1.c.obj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/H7_WRC.elf.dir/Core/User/motor_1.c.obj.d" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/H7_WRC.elf.dir/Core/User/mpuiic.c.obj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/H7_WRC.elf.dir/Core/User/mpuiic.c.obj.d" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/H7_WRC.elf.dir/Core/User/task_control.c.obj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/H7_WRC.elf.dir/Core/User/task_control.c.obj.d" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/H7_WRC.elf.dir/DependInfo.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/H7_WRC.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal.c.obj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/H7_WRC.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal.c.obj.d" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/H7_WRC.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_cortex.c.obj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/H7_WRC.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_cortex.c.obj.d" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/H7_WRC.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_dma.c.obj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/H7_WRC.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_dma.c.obj.d" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/H7_WRC.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_dma_ex.c.obj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/H7_WRC.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_dma_ex.c.obj.d" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/H7_WRC.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_exti.c.obj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/H7_WRC.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_exti.c.obj.d" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/H7_WRC.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_flash.c.obj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/H7_WRC.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_flash.c.obj.d" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/H7_WRC.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_flash_ex.c.obj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/H7_WRC.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_flash_ex.c.obj.d" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/H7_WRC.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_gpio.c.obj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/H7_WRC.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_gpio.c.obj.d" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/H7_WRC.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_hsem.c.obj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/H7_WRC.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_hsem.c.obj.d" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/H7_WRC.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_i2c.c.obj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/H7_WRC.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_i2c.c.obj.d" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/H7_WRC.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_i2c_ex.c.obj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/H7_WRC.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_i2c_ex.c.obj.d" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/H7_WRC.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_mdma.c.obj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/H7_WRC.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_mdma.c.obj.d" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/H7_WRC.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_pwr.c.obj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/H7_WRC.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_pwr.c.obj.d" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/H7_WRC.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_pwr_ex.c.obj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/H7_WRC.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_pwr_ex.c.obj.d" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/H7_WRC.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_rcc.c.obj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/H7_WRC.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_rcc.c.obj.d" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/H7_WRC.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_rcc_ex.c.obj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/H7_WRC.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_rcc_ex.c.obj.d" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/H7_WRC.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_tim.c.obj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/H7_WRC.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_tim.c.obj.d" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/H7_WRC.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_tim_ex.c.obj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/H7_WRC.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_tim_ex.c.obj.d" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/H7_WRC.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_uart.c.obj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/H7_WRC.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_uart.c.obj.d" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/H7_WRC.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_uart_ex.c.obj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/H7_WRC.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_uart_ex.c.obj.d" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/H7_WRC.elf.dir/build.make" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/H7_WRC.elf.dir/cmake_clean.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/H7_WRC.elf.dir/compiler_depend.internal" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/H7_WRC.elf.dir/compiler_depend.make" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/H7_WRC.elf.dir/compiler_depend.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/H7_WRC.elf.dir/depend.internal" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/H7_WRC.elf.dir/depend.make" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/H7_WRC.elf.dir/flags.make" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/H7_WRC.elf.dir/link.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/H7_WRC.elf.dir/progress.make" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TargetDirectories.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-Debug-log.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/cmake.check_cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/H7_WRC.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/H7_WRC.cbp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/H7_WRC.elf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/H7_WRC.hex" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/H7_WRC.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/Makefile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/Testing/Temporary/LastTest.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/cmake_install.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/daplink_h7.cfg" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ClangdSettings">
+    <option name="formatViaClangd" value="false" />
+  </component>
+  <component name="EmbeddedSvdWindowState">
+    <option name="columnWidths">
+      <list>
+        <option value="212" />
+        <option value="102" />
+        <option value="0" />
+      </list>
+    </option>
+    <option name="columnOrder">
+      <list>
+        <option value="名称" />
+        <option value="值" />
+        <option value="描述" />
+      </list>
+    </option>
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/../../GNU-ARM-Embedded-10 2021.10/arm-none-eabi/include/math.h" root0="SKIP_INSPECTION" />
+  </component>
+  <component name="Make.Settings">
+    <option name="showHiddenInToolWindow" value="true" />
+  </component>
+  <component name="ProjectApplicationVersion">
+    <option name="ide" value="CLion" />
+    <option name="majorVersion" value="2023" />
+    <option name="minorVersion" value="1.1" />
+  </component>
+  <component name="ProjectId" id="2OBQgqb6gNo3SZ0oqjg3knMSfDt" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.cidr.known.project.marker&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;cf.first.check.clang-format&quot;: &quot;false&quot;,
+    &quot;cidr.known.project.marker&quot;: &quot;true&quot;,
+    &quot;full.screen.before.presentation.mode&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/stm32_HAL_project/H7_WRC&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
+    &quot;structure.view.defaults.are.configured&quot;: &quot;true&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\stm32_HAL_project\H7_WRC\Core\User" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Makefile 目标.Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_exti.c.s">
+    <configuration name="H7_WRC.elf" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="H7_WRC" TARGET_NAME="H7_WRC.elf" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="H7_WRC" RUN_TARGET_NAME="H7_WRC.elf">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_exti.c.s" type="MAKEFILE_TARGET_RUN_CONFIGURATION" factoryName="Makefile" temporary="true">
+      <makefile filename="$PROJECT_DIR$/cmake-build-debug/Makefile" target="Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_exti.c.s" workingDirectory="" arguments="">
+        <envs />
+      </makefile>
+      <method v="2" />
+    </configuration>
+    <configuration name="daplink" type="com.jetbrains.cidr.embedded.openocd.conf.type" factoryName="com.jetbrains.cidr.embedded.openocd.conf.factory" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="H7_WRC" TARGET_NAME="H7_WRC.elf" CONFIG_NAME="Debug" version="1" RUN_TARGET_PROJECT_NAME="H7_WRC" RUN_TARGET_NAME="H7_WRC.elf">
+      <openocd version="1" gdb-port="3333" telnet-port="4444" board-config="D:\stm32_HAL_project\H7_WRC\daplink_h7.cfg" reset-type="INIT" download-type="UPDATED_ONLY">
+        <debugger kind="GDB" isBundled="true" />
+      </openocd>
+      <method v="2">
+        <option name="CLION.COMPOUND.BUILD" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="CMake 应用程序.H7_WRC.elf" />
+      <item itemvalue="Makefile 目标.Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_exti.c.s" />
+      <item itemvalue="OpenOCD 下载并运行.daplink" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Makefile 目标.Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_exti.c.s" />
+        <item itemvalue="Makefile 目标.Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_exti.c.s" />
+        <item itemvalue="Makefile 目标.Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_exti.c.s" />
+        <item itemvalue="Makefile 目标.Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_exti.c.s" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="应用程序级" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="默认任务">
+      <changelist id="2454c042-77fe-45c5-b1b3-5a67f39f6c4c" name="更改" comment="" />
+      <created>1681031608622</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1681031608622</updated>
+      <workItem from="1681031630312" duration="3839000" />
+      <workItem from="1681039560516" duration="320000" />
+      <workItem from="1681039891822" duration="1392000" />
+      <workItem from="1681287388242" duration="11007000" />
+      <workItem from="1681300018345" duration="13730000" />
+      <workItem from="1681438326922" duration="2214000" />
+      <workItem from="1681476421347" duration="3042000" />
+      <workItem from="1681480214389" duration="3743000" />
+      <workItem from="1681520294930" duration="4231000" />
+      <workItem from="1681567114802" duration="7095000" />
+      <workItem from="1681881521531" duration="20048000" />
+      <workItem from="1682050548169" duration="1203000" />
+      <workItem from="1682069290065" duration="6408000" />
+      <workItem from="1682299279283" duration="1214000" />
+      <workItem from="1682307528099" duration="18000" />
+      <workItem from="1682415864351" duration="7310000" />
+      <workItem from="1682469747631" duration="5518000" />
+      <workItem from="1682523107097" duration="844000" />
+      <workItem from="1682568485354" duration="12082000" />
+      <workItem from="1682997787568" duration="1860000" />
+      <workItem from="1685703269420" duration="1356000" />
+      <workItem from="1686130915759" duration="249000" />
+      <workItem from="1686131180750" duration="1117000" />
+      <workItem from="1686132321868" duration="2000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VCPKGProject">
+    <isAutomaticEditVcpkgJson value="false" />
+    <isAutomaticCheckingOnLaunch value="false" />
+    <isAutomaticFoundErrors value="true" />
+    <isAutomaticFoundErrors value="true" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="test" />
+    <option name="LAST_COMMIT_MESSAGE" value="test" />
+  </component>
+  <component name="XDebuggerManager">
+    <watches-manager>
+      <configuration name="com.jetbrains.cidr.embedded.openocd.conf.type">
+        <watch expression="PAUSE" />
+        <watch expression="M1" />
+        <watch expression="target_speed" />
+        <watch expression="target_speed" />
+        <watch expression="MOTO_PARA" />
+        <watch expression="yaw" />
+      </configuration>
+    </watches-manager>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+</project>
