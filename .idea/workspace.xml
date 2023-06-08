@@ -22,7 +22,6 @@
   <component name="ChangeListManager">
     <list default="true" id="2454c042-77fe-45c5-b1b3-5a67f39f6c4c" name="更改" comment="test">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Core/Src/main.c" beforeDir="false" afterPath="$PROJECT_DIR$/Core/Src/main.c" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Core/User/PID.c" beforeDir="false" afterPath="$PROJECT_DIR$/Core/User/PID.c" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -161,7 +160,7 @@
       <workItem from="1686130915759" duration="249000" />
       <workItem from="1686131180750" duration="1117000" />
       <workItem from="1686132321868" duration="567000" />
-      <workItem from="1686155679989" duration="2000" />
+      <workItem from="1686155679989" duration="1390000" />
     </task>
     <task id="LOCAL-00001" summary="test">
       <created>1686132360116</created>
@@ -170,7 +169,14 @@
       <option name="project" value="LOCAL" />
       <updated>1686132360116</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="test">
+      <created>1686155763160</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1686155763160</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -187,7 +193,19 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="HEAD" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
           </value>
         </entry>
       </map>

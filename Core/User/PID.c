@@ -1,5 +1,7 @@
 #include "PID.h"
 extern struct MOTO MOTO_PARA;
+
+int test_value=0;
 extern PS2_TypeDef PS2_Data;
 struct Tar_speed target_speed=
 {
